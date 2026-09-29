@@ -1,0 +1,13 @@
+{
+  "slug": "pg-copy-streams",
+  "upstream": "pg-copy-streams",
+  "upstreamVersion": "7.0.0",
+  "upstreamIntegrity": "sha512-zBvnY6wtaBRE2ae2xXWOOGMaNVPkXh1vhypAkNSKgMdciJeTyIQAHZaEeRAxUjs/p1El5jgzYmwG5u871Zj3dQ==",
+  "upstreamCommit": "c623afd0102a95ab79222a0cad12a89c06d24e7d",
+  "sourcePackageDirectory": ".",
+  "overlays": {},
+  "tests": [
+    "npm ci --ignore-scripts",
+    "npm test"
+  ]
+}

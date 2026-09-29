@@ -1,0 +1,121 @@
+{
+  "checkedAt": "2026-09-29T00:21:46.595659+00:00",
+  "upstreamRepository": "brianc/node-pg-copy-streams",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 171,
+      "title": "BUG: Cannot read properties of null (reading 'stream')",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/171"
+    },
+    {
+      "number": 118,
+      "title": "Document/Improve: Continuous batching/chunking of a stream",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/118"
+    },
+    {
+      "number": 156,
+      "title": "COPY TO with query_timeout",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/156"
+    },
+    {
+      "number": 127,
+      "title": "copy-from performance with lots of chunks",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/127"
+    },
+    {
+      "number": 115,
+      "title": "CopyFail is never sent to DB",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/115"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 159,
+      "title": "Doesn't seem to work with `pool.query`",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/159"
+    },
+    {
+      "number": 106,
+      "title": "Please handle copyBothResponse in copy-to.js _parse",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/106"
+    },
+    {
+      "number": 162,
+      "title": "obuf seems to be no longer maintained",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/162"
+    },
+    {
+      "number": 161,
+      "title": "Abandoned or perfected?",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/161"
+    },
+    {
+      "number": 160,
+      "title": "pipe copyFrom into copyTo gets stuck ",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/160"
+    },
+    {
+      "number": 158,
+      "title": "Copy Binary Data from Buffer",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/158"
+    },
+    {
+      "number": 157,
+      "title": "Parametrizing COPY ... TO STDOUT query",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/157"
+    },
+    {
+      "number": 153,
+      "title": "Copying data failing but no error triggered",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/153"
+    },
+    {
+      "number": 155,
+      "title": "copyFrom: TypeError: this.cb_ReadyForQuery is not a function",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/155"
+    },
+    {
+      "number": 154,
+      "title": "help needed: concurrent requests",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/154"
+    },
+    {
+      "number": 151,
+      "title": "Row count always off by one on CopyToStreamQuery",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/151"
+    },
+    {
+      "number": 150,
+      "title": "client.query is not returning a stream",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/150"
+    },
+    {
+      "number": 149,
+      "title": "Not really an issue...",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/149"
+    },
+    {
+      "number": 147,
+      "title": "Something seems wrong with binary transfer for COPY ... FROM STDIN BINARY",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/147"
+    },
+    {
+      "number": 146,
+      "title": "Idle connections with \"COMMIT\"",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/146"
+    },
+    {
+      "number": 144,
+      "title": "Documentation doesn't work with latest `pg`",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/144"
+    },
+    {
+      "number": 143,
+      "title": "`COPY FROM` fails when upgrading from v6.0.1 to v6.0.2+",
+      "url": "https://github.com/brianc/node-pg-copy-streams/issues/143"
+    }
+  ],
+  "decision": "Maintenance adoption with preserved runtime payload. No runtime defect correction is claimed. Reports remain visible for subsequent targeted reproduction.",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}

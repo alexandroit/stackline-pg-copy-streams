@@ -1,0 +1,5 @@
+Independent maintenance fork of pg-copy-streams 7.0.0.
+Original copyright, author attribution, and license files are retained unchanged.
+Upstream: https://github.com/brianc/node-pg-copy-streams
+Base commit: c623afd0102a95ab79222a0cad12a89c06d24e7d
+Stackline is not affiliated with or endorsed by upstream maintainers.
