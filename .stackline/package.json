@@ -1,6 +1,6 @@
 {
   "name": "@stackline/pg-copy-streams",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Low-Level COPY TO and COPY FROM streams for PostgreSQL in JavaScript using",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,11 @@
     "url": "git+https://github.com/alexandroit/stackline-pg-copy-streams.git"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "pg-copy-streams",
+    "javascript",
+    "streams",
     "postgres",
     "copy",
     "in",
@@ -48,7 +53,7 @@
     "trailingComma": "es5",
     "singleQuote": true
   },
-  "homepage": "https://github.com/alexandroit/stackline-pg-copy-streams#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/pg-copy-streams/",
   "publishConfig": {
     "access": "public"
   }

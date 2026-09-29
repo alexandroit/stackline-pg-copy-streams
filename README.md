@@ -1,6 +1,50 @@
+# @stackline/pg-copy-streams
+
+> Low-Level COPY TO and COPY FROM streams for PostgreSQL in JavaScript using.
+
+[![npm version](https://img.shields.io/npm/v/@stackline/pg-copy-streams.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/pg-copy-streams)
+[![license](https://img.shields.io/npm/l/@stackline/pg-copy-streams.svg?style=flat-square)](https://github.com/alexandroit/stackline-pg-copy-streams)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-pg-copy-streams-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-pg-copy-streams)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/pg-copy-streams/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/pg-copy-streams/)** | **[npm](https://www.npmjs.com/package/@stackline/pg-copy-streams)** | **[Issues](https://github.com/alexandroit/stackline-pg-copy-streams/issues)** | **[Repository](https://github.com/alexandroit/stackline-pg-copy-streams)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/pg-copy-streams` is the Stackline-maintained distribution of `pg-copy-streams@7.0.0`. It is an independent continuation of [pg-copy-streams](https://github.com/brianc/node-pg-copy-streams); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/pg-copy-streams@1.0.1` |
+| API target | `pg-copy-streams@7.0.0` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Main entry | `index.js` |
+| Runtime dependencies | `none` |
+
+## Installation
+
+```bash
+npm install @stackline/pg-copy-streams
+```
+
+Preserve existing imports and plugin resolution with an npm alias:
+
+```bash
+npm install pg-copy-streams@npm:@stackline/pg-copy-streams
+```
+
+## Usage and API reference
+
 ## pg-copy-streams
 
-[![Build Status](https://travis-ci.org/brianc/node-pg-copy-streams.svg)](https://travis-ci.org/brianc/node-pg-copy-streams)
 
 COPY FROM / COPY TO for node-postgres. Stream from one database to another, and stuff.
 
@@ -24,7 +68,7 @@ If you're not familiar with the feature (I wasn't either) you can read this for 
 
 ```js
 var { Pool } = require('pg')
-var { to as copyTo } = require('pg-copy-streams')
+var { to as copyTo } = require('@stackline/pg-copy-streams')
 
 var pool = new Pool()
 
@@ -39,7 +83,7 @@ pool.connect(function (err, client, done) {
 // async/await
 import { pipeline } from 'node:stream/promises'
 import pg from 'pg'
-import { to as copyTo } from 'pg-copy-streams'
+import { to as copyTo } from '@stackline/pg-copy-streams'
 
 const pool = new pg.Pool()
 const client = await pool.connect()
@@ -59,7 +103,7 @@ _Important_: When copying data out of postgresql, postgresql will chunk the data
 ```js
 var fs = require('node:fs')
 var { Pool } = require('pg')
-var { from as copyFrom } = require('pg-copy-streams')
+var { from as copyFrom } = require('@stackline/pg-copy-streams')
 
 var pool = new Pool()
 
@@ -77,7 +121,7 @@ pool.connect(function (err, client, done) {
 import { pipeline } from 'node:stream/promises'
 import fs from 'node:fs'
 import pg from 'pg'
-import { from as copyFrom } from 'pg-copy-streams'
+import { from as copyFrom } from '@stackline/pg-copy-streams'
 
 const pool = new pg.Pool()
 const client = await pool.connect()
@@ -106,7 +150,7 @@ _Note regarding logical decoding_: Parsers for logical decoding scenarios are ea
 ## install
 
 ```sh
-$ npm install pg-copy-streams
+$ npm install @stackline/pg-copy-streams
 ```
 
 ## notice
@@ -313,3 +357,25 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+## Credits and original authors
+
+- Original project: [pg-copy-streams](https://github.com/brianc/node-pg-copy-streams).
+- Brian M. Carlson.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`MIT`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-pg-copy-streams).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
