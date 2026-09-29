@@ -1,0 +1,28 @@
+{
+  "repository": "alexandroit/stackline-pg-copy-streams",
+  "packages": [
+    {
+      "name": "@stackline/pg-copy-streams",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "pg-copy-streams",
+        "javascript",
+        "streams",
+        "postgres",
+        "copy",
+        "in",
+        "out",
+        "stream"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/pg-copy-streams/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/pg-copy-streams/-/pg-copy-streams-1.0.0.tgz",
+      "baselineIntegrity": "sha512-Z6tMuv/OAvR/334D6/3a7plODRwDcz3Qy9DbJ3wh/1ooxwGTCdUYEkZWhFxyXUrUUvhk0NyfMxe3UAygsfB6gg==",
+      "expectedSha512": "3e1d0a968151ae59178edd94580b79a2682e72185be8a9ec1e85d1f14dbe93491516744396deed65d2df9602f6f65464522911b082c890b0e54c81f23e4915b4",
+      "tag": "docs-stackline-pg-copy-streams-v1.0.1"
+    }
+  ]
+}
