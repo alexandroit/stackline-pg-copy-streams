@@ -4,7 +4,7 @@
     {
       "name": "@stackline/pg-copy-streams",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -21,8 +21,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/pg-copy-streams/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/pg-copy-streams/-/pg-copy-streams-1.0.0.tgz",
       "baselineIntegrity": "sha512-Z6tMuv/OAvR/334D6/3a7plODRwDcz3Qy9DbJ3wh/1ooxwGTCdUYEkZWhFxyXUrUUvhk0NyfMxe3UAygsfB6gg==",
-      "expectedSha512": "3e1d0a968151ae59178edd94580b79a2682e72185be8a9ec1e85d1f14dbe93491516744396deed65d2df9602f6f65464522911b082c890b0e54c81f23e4915b4",
-      "tag": "docs-stackline-pg-copy-streams-v1.0.1"
+      "expectedSha512": "0e4794be0c74c63d176598ff70e01978ca7fd104af8a64e679bf0488c1399b0a74ec9d766c0132075d1a9898525c693bf182b7041003a2bb55e752d63eeaec2d",
+      "tag": "docs-stackline-pg-copy-streams-v1.0.2"
     }
   ]
 }
