@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/pg-copy-streams/)** | **[npm](https://www.npmjs.com/package/@stackline/pg-copy-streams)** | **[Issues](https://github.com/alexandroit/stackline-pg-copy-streams/issues)** | **[Repository](https://github.com/alexandroit/stackline-pg-copy-streams)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/pg-copy-streams@1.0.2` |
+| Package | `@stackline/pg-copy-streams@1.0.3` |
 | API target | `pg-copy-streams@7.0.0` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
